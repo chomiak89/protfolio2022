@@ -77,6 +77,14 @@ html {
     opacity: 1;
   }
 }
+.work-pointer {
+  color: #fff;
+  font-family: "Comfortaa", cursive;
+  text-transform: uppercase;
+  position: absolute;
+  right: 180px;
+  animation: animateOpacity 6s;
+}
 
 /* ------------------- WORK STYLES -------------------  */
 .workContainer {
@@ -129,6 +137,13 @@ html {
 .card-1:hover,
 .card-2:hover,
 .card-3:hover {
+  transform: scale(1.05);
+}
+
+.git-icon {
+  transition: all 0.2s ease-in-out;
+}
+.git-icon:hover {
   transform: scale(1.05);
 }
 
